@@ -1,0 +1,41 @@
+{
+    "expo": {
+      "name": "Olafo Motel",
+      "slug": "OlafoClean",
+      "version": "1.0.0",
+      "orientation": "portrait",
+      "icon": "./assets/icon.png",
+      "userInterfaceStyle": "light",
+      "platforms": ["ios", "android"],
+      "splash": {
+        "image": "./assets/splash-icon.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      },
+      "ios": {
+        "supportsTablet": true,
+        "bundleIdentifier": "com.londonohenao.OlafoClean",
+        "runtimeVersion": {
+          "policy": "appVersion"
+        }
+      },
+      "android": {
+        "adaptiveIcon": {
+          "foregroundImage": "./assets/adaptive-icon.png",
+          "backgroundColor": "#ffffff"
+        },
+        "package": "com.londonohenao.OlafoClean",
+        "edgeToEdgeEnabled": true,
+        "runtimeVersion": "1.0.0"
+      },
+      "extra": {
+        "eas": {
+          "projectId": "1fdc2361-eb4b-4970-ba9c-ab9d986e1ee3"
+        }
+      },
+      "updates": {
+        "url": "https://u.expo.dev/1fdc2361-eb4b-4970-ba9c-ab9d986e1ee3"
+      }
+    }
+  }
+  
